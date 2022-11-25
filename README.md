@@ -1,12 +1,13 @@
 # ML-Openlabs-Hackathon-1.0
 
-Welcome to ML Openlabs Hackathon 1.0!
+#Welcome to ML Openlabs Hackathon 1.0!
 
 You have to make use of the best ML algorithm you can come up with, to be the one with the highest score!
 
 Following is the problem for the Hackathon:
 
-Spaceship Titanic
+#Spaceship Titanic
+
 Predict which passengers are transported to an alternate dimension
 Welcome to the year 2912, where your data science skills are needed to solve a cosmic mystery. We've received a transmission from four lightyears away and things aren't looking good.
 
@@ -20,7 +21,7 @@ Help save them and change history!
 
 Dataset Description: In this competition your task is to predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly. To help you make these predictions, you're given a set of personal records recovered from the ship's damaged computer system.
 
-File and Data Field Descriptions
+#File and Data Field Descriptions
 
 train.csv - Personal records for about two-thirds (~8700) of the passengers, to be used as training data.
 PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
@@ -39,11 +40,11 @@ PassengerId - Id for each passenger in the test set.
 Transported - The target. For each passenger, predict either True or False.
 
 
-Steps to get started with your hackathon project:
+#Steps to get started with your hackathon project:
 
 To load datasets in your Google Colab Notebook to get started with your project, refer to test.csv and train.csv files in this repository. Open those files, and click on Raw button. Copy the URL link of the web page that appears,and store it as a string variable called url in Colab as shown below . The last step is to load the url into Pandas read_csv to get the dataframe.
 url = 'copied_raw_GH_link'
 df1 = pd.read_csv(url)
-# Dataset is now stored in a Pandas Dataframe
+//Dataset is now stored in a Pandas Dataframe
 
 use display() to display the dataset, so you can get familiar with the variables thst you are handling.
